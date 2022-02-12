@@ -2,6 +2,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    overflow: hidden;
 }
 
 main {
@@ -10,4 +11,8 @@ main {
 
 footer {
     text-align: center;
+}
+
+.nav-wrapper, .page-footer {
+    background-color: #E8A2E8 !important;
 }
